@@ -1,0 +1,32 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.initial,
+.sorted {
+    width: 25%;
+    height: 50px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    border: 1px solid;
+}
+
+.initialItem {
+    text-align: center;
+    position: relative;
+    padding-top: 15px;
+    background-color: aliceblue;
+    border: 1px solid;
+}
+
+.button {
+    position: relative;
+    top: 40px;
+    left: 20px;
+    
+}
