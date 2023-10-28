@@ -20,6 +20,9 @@ function main(arr) {
             key = arr[i];
             //Insert initialArr[i] into the sorted subarray
             j = i-1;
+            //monotonically decreasing order:
+            //while(j >= 0 && arr[j] <= key){
+            //monotonically increasing order:
             while(j >= 0 && arr[j] > key){
                 arr[j+1] = arr[j];
                 j = j-1;
